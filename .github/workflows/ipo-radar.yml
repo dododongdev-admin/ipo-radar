@@ -1,0 +1,52 @@
+name: IPO Radar
+
+on:
+  schedule:
+    # 10분마다 (UTC, GitHub cron 은 best-effort 라 실제론 10~15분 간격).
+    # 미국 IPO 공시·가격확정은 주로 美 동부시간 오후~저녁에 몰린다.
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {}   # 수동 실행 버튼
+
+# seen.json 을 repo 에 커밋해 상태를 영속화하기 위해 쓰기 권한 필요
+permissions:
+  contents: write
+
+concurrency:
+  group: ipo-radar
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run poller
+        env:
+          FINNHUB_KEY:      ${{ secrets.FINNHUB_KEY }}
+          NTFY_TOPIC:       ${{ secrets.NTFY_TOPIC }}
+          NTFY_SERVER:      ${{ secrets.NTFY_SERVER }}
+          DISCORD_WEBHOOK:  ${{ secrets.DISCORD_WEBHOOK }}
+          TELEGRAM_TOKEN:   ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SEC_UA:           ${{ secrets.SEC_UA }}
+        run: python poller.py
+
+      - name: Persist state
+        run: |
+          if [[ -n "$(git status --porcelain seen.json)" ]]; then
+            git config user.name  "ipo-radar-bot"
+            git config user.email "actions@github.com"
+            git add seen.json
+            git commit -m "state: update seen.json [skip ci]"
+            git push
+          else
+            echo "변경 없음."
+          fi
