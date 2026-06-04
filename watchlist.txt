@@ -1,0 +1,12 @@
+# IPO Radar 관심종목 (워치리스트)
+# - 한 줄에 하나. 회사명/티커의 '핵심 단어'를 소문자로.
+# - 부분일치로 잡습니다 (예: "stripe" → "Stripe Inc" 매칭).
+# - SEC 공시는 '정식 법인명'으로 올라오니, 통칭과 법인명이 다르면 둘 다 넣으세요.
+# - 이 파일을 비우면(또는 줄 전부 #처리) 전체 IPO 알림으로 돌아갑니다.
+# - GitHub 웹에서 이 파일을 직접 수정→커밋하면 다음 실행부터 반영됩니다.
+
+anthropic
+
+spacex
+space exploration technologies   # SpaceX 정식 법인명 (공시는 이 이름으로 뜸)
+starlink                          # SpaceX 위성사업 분사 상장 대비

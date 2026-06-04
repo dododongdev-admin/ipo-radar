@@ -67,6 +67,39 @@ SIGNAL_META = {
 
 PRUNE_DAYS = 60  # seen.json 이 무한정 커지지 않도록 오래된 항목 정리
 
+# ── 워치리스트(관심종목) ──────────────────────────────────────────────────────
+# watchlist.txt(한 줄에 하나, # 주석 허용) 또는 WATCHLIST 환경변수(쉼표)로 지정.
+# 비어 있으면 전체 알림. 채워져 있으면 부분일치(소문자)하는 것만 알림.
+WATCHLIST_PATH = os.path.join(HERE, "watchlist.txt")
+# only  : 워치리스트 일치하는 것만 알림
+# hybrid: 워치리스트 일치 + (불일치라도) 상장 임박 긴급 신호는 전체 알림
+WATCHLIST_MODE = (os.environ.get("WATCHLIST_MODE") or "only").lower()
+URGENT_FORMS = {"424B4", "424B1", "8-A12B"}  # hybrid 모드에서 워치 무시하고 통과시킬 폼
+
+
+def load_watchlist():
+    terms = []
+    if os.path.exists(WATCHLIST_PATH):
+        try:
+            with open(WATCHLIST_PATH, "r", encoding="utf-8") as f:
+                for line in f:
+                    line = line.split("#", 1)[0].strip().lower()  # 인라인 주석 제거
+                    if line:
+                        terms.append(line)
+        except OSError:
+            pass
+    for t in (os.environ.get("WATCHLIST") or "").split(","):
+        t = t.strip().lower()
+        if t:
+            terms.append(t)
+    return terms
+
+
+def match_watch(text, terms):
+    t = (text or "").lower()
+    return any(term in t for term in terms)
+
+
 # ── 상태 입출력 ────────────────────────────────────────────────────────────────
 def load_seen():
     if not os.path.exists(SEEN_PATH):
@@ -225,6 +258,7 @@ def main():
     if first_run:
         seen = {}
 
+    watch = load_watchlist()  # 비어 있으면 전체 알림
     new_items = []  # (priority, title, body, tags)
 
     # 1) EDGAR
@@ -235,6 +269,10 @@ def main():
         seen[uid] = {"first_seen": now_iso(), "status": form}
         if first_run:
             continue
+        # 워치리스트 필터 (seen 기록은 위에서 이미 끝남 → 중복 평가 방지)
+        if watch and not match_watch(company, watch):
+            if not (WATCHLIST_MODE == "hybrid" and form in URGENT_FORMS):
+                continue
         prio, tag, label = SIGNAL_META.get(form, ("default", "page_facing_up", form))
         title = f"[{form}] {company}"
         body = f"{label}\n{link}"
@@ -248,6 +286,10 @@ def main():
                      "status": status}
         if first_run or not changed:
             continue
+        # 워치리스트 필터 (이름+티커 둘 다 대상)
+        if watch and not match_watch(f"{name} {symbol}", watch):
+            if not (WATCHLIST_MODE == "hybrid" and status == "priced"):
+                continue
         # status 별 우선순위
         if status == "priced":
             prio, tag = "urgent", "rotating_light"
@@ -270,9 +312,13 @@ def main():
     save_seen(seen)
 
     if first_run:
+        if watch:
+            scope = f"관심종목 {len(watch)}개만 감시 (모드: {WATCHLIST_MODE})"
+        else:
+            scope = "전체 IPO 감시"
         broadcast(
             "📡 IPO Radar 가동",
-            f"감시 시작. 폼 {', '.join(EDGAR_FORMS)} + Finnhub 캘린더.\n"
+            f"{scope}.\n폼 {', '.join(EDGAR_FORMS)} + Finnhub 캘린더.\n"
             f"과거 {len(seen)}건은 조용히 등록했고, 지금부터 새 항목만 알립니다.",
             priority="default", tags=["satellite"],
         )

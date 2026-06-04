@@ -37,6 +37,9 @@ jobs:
           TELEGRAM_TOKEN:   ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           SEC_UA:           ${{ secrets.SEC_UA }}
+          # 워치리스트 모드: only(관심종목만) | hybrid(관심종목 + 상장임박 긴급은 전체)
+          # 관심종목 목록은 watchlist.txt 파일에서 관리.
+          WATCHLIST_MODE: only
         run: python poller.py
 
       - name: Persist state
