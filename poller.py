@@ -40,8 +40,10 @@ except ImportError:
 HERE = os.path.dirname(os.path.abspath(__file__))
 SEEN_PATH = os.path.join(HERE, "seen.json")
 
-# SEC 는 연락처가 담긴 User-Agent 를 요구한다 (없으면 차단).
-SEC_UA = os.environ.get("SEC_UA", "dododong.dev ipo-radar gemiddikku@gmail.com")
+# SEC 는 연락처가 담긴 User-Agent 를 요구한다 (없거나 비면 403 차단).
+# 주의: 미설정 시크릿은 빈 문자열로 넘어오므로 get(.,default) 가 아닌 `or` 로 받아야
+#       빈 값도 기본값으로 대체된다.
+SEC_UA = os.environ.get("SEC_UA") or "dododong.dev ipo-radar gemiddikku@gmail.com"
 
 # 감시할 공시 폼 타입. 의미는 상단 docstring 참고.
 EDGAR_FORMS = ["S-1", "F-1", "424B4", "424B1", "8-A12B"]
@@ -168,7 +170,8 @@ def send_ntfy(title, body, priority="default", tags=None):
     topic = os.environ.get("NTFY_TOPIC", "").strip()
     if not topic:
         return
-    base = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
+    # 미설정 시크릿은 빈 문자열로 오므로 `or` 로 기본 서버 보장
+    base = (os.environ.get("NTFY_SERVER") or "https://ntfy.sh").rstrip("/")
     headers = {
         "Title": title.encode("utf-8"),
         "Priority": priority,
