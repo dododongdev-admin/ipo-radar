@@ -56,6 +56,10 @@ EDGAR_FEED = (
 FINNHUB_KEY = os.environ.get("FINNHUB_KEY", "").strip()
 FINNHUB_URL = "https://finnhub.io/api/v1/calendar/ipo"
 
+# 모든 알림에 박는 고정 마커. KeywordSniper 등 알림 감시 앱이 이 단어 하나로
+# 모든 IPO 신호를 캐치하게 해준다. 바꾸려면 IPO_MARKER 환경변수 지정.
+MARKER = (os.environ.get("IPO_MARKER") or "IPORADAR").strip()
+
 # 신호별 우선순위(ntfy priority) 와 태그(이모지)
 SIGNAL_META = {
     "424B4":  ("urgent", "rotating_light", "공모가 확정·상장 임박"),
@@ -245,6 +249,10 @@ def send_telegram(text):
 
 
 def broadcast(title, body, priority="default", tags=None):
+    # 모든 알림 제목·본문에 고정 마커를 박는다 → KeywordSniper 등에서 이 단어
+    # 하나로 전부 캐치 가능. 다른 앱 알림과 안 겹치게 기본값 IPORADAR.
+    title = f"{MARKER} {title}"
+    body = f"[{MARKER}] {body}"  # 본문만 읽는 리스너도 대비해 중복 삽입
     send_ntfy(title, body, priority, tags)
     full = f"{title}\n{body}"
     send_discord(full)
