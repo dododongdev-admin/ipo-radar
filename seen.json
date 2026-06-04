@@ -1,0 +1,41 @@
+{
+  "updated": "2026-06-04T15:17:57.769680+00:00",
+  "items": {
+    "finnhub:FRBT:2026-06-11": {
+      "first_seen": "2026-06-04T15:17:57.769381+00:00",
+      "status": "expected"
+    },
+    "finnhub:EROC:2026-06-10": {
+      "first_seen": "2026-06-04T15:17:57.769392+00:00",
+      "status": "expected"
+    },
+    "finnhub:WHK:2026-06-05": {
+      "first_seen": "2026-06-04T15:17:57.769396+00:00",
+      "status": "expected"
+    },
+    "finnhub:IDIAU:2026-06-05": {
+      "first_seen": "2026-06-04T15:17:57.769398+00:00",
+      "status": "expected"
+    },
+    "finnhub:INIO:2026-06-04": {
+      "first_seen": "2026-06-04T15:17:57.769400+00:00",
+      "status": "expected"
+    },
+    "finnhub:SSMR:2026-06-04": {
+      "first_seen": "2026-06-04T15:17:57.769402+00:00",
+      "status": "expected"
+    },
+    "finnhub:QNT:2026-06-04": {
+      "first_seen": "2026-06-04T15:17:57.769404+00:00",
+      "status": "expected"
+    },
+    "finnhub:SFPT:2026-06-04": {
+      "first_seen": "2026-06-04T15:17:57.769406+00:00",
+      "status": "expected"
+    },
+    "finnhub:LFTO:2026-06-04": {
+      "first_seen": "2026-06-04T15:17:57.769408+00:00",
+      "status": "expected"
+    }
+  }
+}
