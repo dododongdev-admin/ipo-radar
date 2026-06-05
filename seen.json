@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-04T21:18:15.124993+00:00",
+  "updated": "2026-06-05T10:57:37.661274+00:00",
   "items": {
     "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-256398": {
       "first_seen": "2026-06-04T15:41:29.953235+00:00",
@@ -348,6 +348,50 @@
     "edgar:urn:tag:sec.gov,2008:accession-number=0001771146-26-001152": {
       "first_seen": "2026-06-04T21:18:14.636771+00:00",
       "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-065480": {
+      "first_seen": "2026-06-05T10:57:37.523461+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-027320": {
+      "first_seen": "2026-06-05T10:57:37.523499+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001104659-26-070647": {
+      "first_seen": "2026-06-05T10:57:37.523506+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-027350": {
+      "first_seen": "2026-06-05T10:57:37.523532+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-065429": {
+      "first_seen": "2026-06-05T10:57:37.523537+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-027323": {
+      "first_seen": "2026-06-05T10:57:37.523540+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-065394": {
+      "first_seen": "2026-06-05T10:57:37.523544+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-258295": {
+      "first_seen": "2026-06-05T10:57:37.523554+00:00",
+      "status": "424B4"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001140361-26-024037": {
+      "first_seen": "2026-06-05T10:57:37.523557+00:00",
+      "status": "424B4"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001628280-26-041003": {
+      "first_seen": "2026-06-05T10:57:37.523560+00:00",
+      "status": "424B4"
+    },
+    "finnhub:SPCX:2026-06-12": {
+      "first_seen": "2026-06-05T10:57:37.660895+00:00",
+      "status": "expected"
     }
   }
 }
