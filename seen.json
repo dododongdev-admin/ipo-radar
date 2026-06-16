@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T23:19:59.631019+00:00",
+  "updated": "2026-06-16T18:13:26.775197+00:00",
   "items": {
     "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-256398": {
       "first_seen": "2026-06-04T15:41:29.953235+00:00",
@@ -1180,6 +1180,62 @@
     "edgar:urn:tag:sec.gov,2008:accession-number=0001999371-26-012833": {
       "first_seen": "2026-06-15T23:19:59.490975+00:00",
       "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001829126-26-006527": {
+      "first_seen": "2026-06-16T18:13:26.659192+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001829126-26-006500": {
+      "first_seen": "2026-06-16T18:13:26.659229+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-028842": {
+      "first_seen": "2026-06-16T18:13:26.659244+00:00",
+      "status": "F-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-069143": {
+      "first_seen": "2026-06-16T18:13:26.659248+00:00",
+      "status": "F-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001445546-26-004397": {
+      "first_seen": "2026-06-16T18:13:26.659256+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-069126": {
+      "first_seen": "2026-06-16T18:13:26.659260+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-028833": {
+      "first_seen": "2026-06-16T18:13:26.659263+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001104659-26-074436": {
+      "first_seen": "2026-06-16T18:13:26.659267+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0000038009-26-000034": {
+      "first_seen": "2026-06-16T18:13:26.659269+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0000030146-26-000268": {
+      "first_seen": "2026-06-16T18:13:26.659272+00:00",
+      "status": "8-A12B"
+    },
+    "finnhub:DPC:2026-06-25": {
+      "first_seen": "2026-06-16T18:13:26.774776+00:00",
+      "status": "expected"
+    },
+    "finnhub:KARD:2026-06-18": {
+      "first_seen": "2026-06-16T18:13:26.774800+00:00",
+      "status": "expected"
+    },
+    "finnhub:TVIVU:2026-06-18": {
+      "first_seen": "2026-06-16T18:13:26.774812+00:00",
+      "status": "expected"
+    },
+    "finnhub:YICCU:2026-06-16": {
+      "first_seen": "2026-06-16T18:13:26.774816+00:00",
+      "status": "expected"
     }
   }
 }
