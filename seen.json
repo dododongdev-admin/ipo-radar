@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T13:13:09.022774+00:00",
+  "updated": "2026-07-01T15:57:53.606120+00:00",
   "items": {
     "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-256398": {
       "first_seen": "2026-06-04T15:41:29.953235+00:00",
@@ -2368,6 +2368,22 @@
     "finnhub:OSPRU:2026-07-01": {
       "first_seen": "2026-07-01T13:13:09.022213+00:00",
       "status": "expected"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0002141084-26-000001": {
+      "first_seen": "2026-07-01T15:57:53.492948+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-074033": {
+      "first_seen": "2026-07-01T15:57:53.492974+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-031463": {
+      "first_seen": "2026-07-01T15:57:53.493002+00:00",
+      "status": "424B4"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-291832": {
+      "first_seen": "2026-07-01T15:57:53.493010+00:00",
+      "status": "8-A12B"
     }
   }
 }
