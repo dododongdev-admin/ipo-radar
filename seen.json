@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T21:58:50.729376+00:00",
+  "updated": "2026-07-17T22:58:01.286658+00:00",
   "items": {
     "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-256398": {
       "first_seen": "2026-06-04T15:41:29.953235+00:00",
@@ -3536,6 +3536,10 @@
     "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-079231": {
       "first_seen": "2026-07-17T21:58:50.674609+00:00",
       "status": "424B4"
+    },
+    "finnhub:AMACU:2026-07-17": {
+      "first_seen": "2026-07-17T22:58:01.286220+00:00",
+      "status": "expected"
     }
   }
 }
