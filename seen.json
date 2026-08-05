@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T07:18:33.403393+00:00",
+  "updated": "2026-08-05T10:02:06.427891+00:00",
   "items": {
     "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-027656": {
       "first_seen": "2026-06-08T14:51:28.766803+00:00",
@@ -4208,6 +4208,10 @@
     "finnhub:FJDIU:2026-08-04": {
       "first_seen": "2026-08-04T22:45:08.985983+00:00",
       "status": "expected"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-085297": {
+      "first_seen": "2026-08-05T10:02:06.203446+00:00",
+      "status": "S-1"
     }
   }
 }
