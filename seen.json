@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T20:37:12.573377+00:00",
+  "updated": "2026-08-18T20:59:02.002175+00:00",
   "items": {
     "finnhub:ALPXU:2026-06-24": {
       "first_seen": "2026-06-19T22:13:04.807779+00:00",
@@ -4172,6 +4172,14 @@
     "edgar:urn:tag:sec.gov,2008:accession-number=0001829126-26-009017": {
       "first_seen": "2026-08-18T20:37:12.398973+00:00",
       "status": "424B4"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001140361-26-033585": {
+      "first_seen": "2026-08-18T20:59:01.897211+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-355643": {
+      "first_seen": "2026-08-18T20:59:01.897265+00:00",
+      "status": "F-1"
     }
   }
 }
