@@ -1,50 +1,6 @@
 {
-  "updated": "2026-08-18T11:58:13.521426+00:00",
+  "updated": "2026-08-18T13:01:08.487109+00:00",
   "items": {
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-070217": {
-      "first_seen": "2026-06-19T12:32:39.517798+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-070215": {
-      "first_seen": "2026-06-19T12:32:39.517831+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001104659-26-075843": {
-      "first_seen": "2026-06-19T12:32:39.517837+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001104659-26-075838": {
-      "first_seen": "2026-06-19T12:32:39.517842+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-029376": {
-      "first_seen": "2026-06-19T12:32:39.517845+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001104659-26-075840": {
-      "first_seen": "2026-06-19T12:32:39.517853+00:00",
-      "status": "F-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001140361-26-025790": {
-      "first_seen": "2026-06-19T12:32:39.517860+00:00",
-      "status": "424B4"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-070224": {
-      "first_seen": "2026-06-19T12:32:39.517863+00:00",
-      "status": "424B4"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-276096": {
-      "first_seen": "2026-06-19T12:32:39.517867+00:00",
-      "status": "424B4"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001398344-26-011069": {
-      "first_seen": "2026-06-19T12:32:39.517873+00:00",
-      "status": "8-A12B"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001628280-26-044393": {
-      "first_seen": "2026-06-19T12:32:39.517876+00:00",
-      "status": "8-A12B"
-    },
     "finnhub:ALPXU:2026-06-24": {
       "first_seen": "2026-06-19T22:13:04.807779+00:00",
       "status": "expected"
