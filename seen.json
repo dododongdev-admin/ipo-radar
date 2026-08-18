@@ -1,10 +1,6 @@
 {
-  "updated": "2026-08-18T21:55:30.712166+00:00",
+  "updated": "2026-08-18T22:25:01.171989+00:00",
   "items": {
-    "finnhub:ALPXU:2026-06-24": {
-      "first_seen": "2026-06-19T22:13:04.807779+00:00",
-      "status": "expected"
-    },
     "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-070464": {
       "first_seen": "2026-06-22T16:15:50.032110+00:00",
       "status": "S-1"
@@ -4188,6 +4184,14 @@
     "edgar:urn:tag:sec.gov,2008:accession-number=0001445546-26-006103": {
       "first_seen": "2026-08-18T21:31:49.524885+00:00",
       "status": "8-A12B"
+    },
+    "finnhub:XTERU:2026-08-18": {
+      "first_seen": "2026-08-18T22:25:01.171439+00:00",
+      "status": "expected"
+    },
+    "finnhub:ADBT:2026-08-18": {
+      "first_seen": "2026-08-18T22:25:01.171451+00:00",
+      "status": "expected"
     }
   }
 }
