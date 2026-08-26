@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T09:26:42.433375+00:00",
+  "updated": "2026-08-26T10:06:32.186276+00:00",
   "items": {
     "edgar:urn:tag:sec.gov,2008:accession-number=0001437749-26-021892": {
       "first_seen": "2026-06-29T12:07:20.404174+00:00",
@@ -4068,6 +4068,10 @@
     "finnhub:SCATU:2026-08-26": {
       "first_seen": "2026-08-25T22:10:35.817303+00:00",
       "status": "expected"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-093612": {
+      "first_seen": "2026-08-26T10:06:32.093683+00:00",
+      "status": "F-1"
     }
   }
 }
