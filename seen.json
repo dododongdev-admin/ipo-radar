@@ -1,22 +1,6 @@
 {
-  "updated": "2026-09-07T12:23:27.412492+00:00",
+  "updated": "2026-09-07T17:50:35.478258+00:00",
   "items": {
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001104659-26-082167": {
-      "first_seen": "2026-07-09T15:33:18.839424+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-076593": {
-      "first_seen": "2026-07-09T15:33:18.839469+00:00",
-      "status": "8-A12B"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-076634": {
-      "first_seen": "2026-07-09T17:31:25.189900+00:00",
-      "status": "F-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-032632": {
-      "first_seen": "2026-07-09T17:31:25.189939+00:00",
-      "status": "8-A12B"
-    },
     "edgar:urn:tag:sec.gov,2008:accession-number=0001683168-26-005398": {
       "first_seen": "2026-07-09T19:12:20.485597+00:00",
       "status": "S-1"
