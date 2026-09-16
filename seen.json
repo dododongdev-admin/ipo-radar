@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T06:08:23.821774+00:00",
+  "updated": "2026-09-16T11:30:13.340212+00:00",
   "items": {
     "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-308260": {
       "first_seen": "2026-07-20T10:26:10.947200+00:00",
@@ -3792,6 +3792,18 @@
     "finnhub:ETRA:2026-09-18": {
       "first_seen": "2026-09-15T22:57:27.196263+00:00",
       "status": "expected"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-100260": {
+      "first_seen": "2026-09-16T11:30:13.123371+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001829126-26-010133": {
+      "first_seen": "2026-09-16T11:30:13.123419+00:00",
+      "status": "F-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-042799": {
+      "first_seen": "2026-09-16T11:30:13.123426+00:00",
+      "status": "F-1"
     }
   }
 }
