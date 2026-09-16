@@ -1,10 +1,6 @@
 {
-  "updated": "2026-09-15T22:57:27.196880+00:00",
+  "updated": "2026-09-16T01:13:42.307073+00:00",
   "items": {
-    "finnhub:AMACU:2026-07-17": {
-      "first_seen": "2026-07-17T22:58:01.286220+00:00",
-      "status": "expected"
-    },
     "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-308260": {
       "first_seen": "2026-07-20T10:26:10.947200+00:00",
       "status": "S-1"
