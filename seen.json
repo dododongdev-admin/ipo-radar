@@ -1,10 +1,6 @@
 {
-  "updated": "2026-09-18T21:56:17.901656+00:00",
+  "updated": "2026-09-18T23:58:05.081660+00:00",
   "items": {
-    "finnhub:NCOU:2026-07-21": {
-      "first_seen": "2026-07-20T22:35:08.690263+00:00",
-      "status": "expected"
-    },
     "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-309340": {
       "first_seen": "2026-07-21T11:31:13.659079+00:00",
       "status": "S-1"
@@ -4012,6 +4008,10 @@
     "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-395670": {
       "first_seen": "2026-09-18T21:56:17.715554+00:00",
       "status": "424B4"
+    },
+    "finnhub:LEDRU:2026-09-18": {
+      "first_seen": "2026-09-18T23:58:05.081243+00:00",
+      "status": "expected"
     }
   }
 }
