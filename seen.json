@@ -1,34 +1,6 @@
 {
-  "updated": "2026-09-21T20:32:42.145308+00:00",
+  "updated": "2026-09-21T23:36:15.864096+00:00",
   "items": {
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001829126-26-007808": {
-      "first_seen": "2026-07-23T21:30:10.493425+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-314602": {
-      "first_seen": "2026-07-23T21:30:10.493457+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-034421": {
-      "first_seen": "2026-07-23T21:30:10.493463+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-080882": {
-      "first_seen": "2026-07-23T21:30:10.493467+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-314581": {
-      "first_seen": "2026-07-23T21:30:10.493480+00:00",
-      "status": "F-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-314136": {
-      "first_seen": "2026-07-23T21:30:10.493489+00:00",
-      "status": "424B1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-080925": {
-      "first_seen": "2026-07-23T21:30:10.493492+00:00",
-      "status": "8-A12B"
-    },
     "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-314695": {
       "first_seen": "2026-07-24T01:04:33.751908+00:00",
       "status": "S-1"
@@ -3908,6 +3880,14 @@
     "edgar:urn:tag:sec.gov,2008:accession-number=0001628280-26-062808": {
       "first_seen": "2026-09-21T20:32:42.060187+00:00",
       "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001477932-26-005725": {
+      "first_seen": "2026-09-21T23:36:15.734039+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-101822": {
+      "first_seen": "2026-09-21T23:36:15.734075+00:00",
+      "status": "S-1"
     }
   }
 }
