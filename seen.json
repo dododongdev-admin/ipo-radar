@@ -1,26 +1,6 @@
 {
-  "updated": "2026-09-25T12:20:31.010623+00:00",
+  "updated": "2026-09-25T17:22:14.587747+00:00",
   "items": {
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-081597": {
-      "first_seen": "2026-07-27T15:10:24.032924+00:00",
-      "status": "424B4"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0000894189-26-021432": {
-      "first_seen": "2026-07-27T15:10:24.032956+00:00",
-      "status": "8-A12B"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0000030146-26-000318": {
-      "first_seen": "2026-07-27T15:10:24.032961+00:00",
-      "status": "8-A12B"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001683168-26-005775": {
-      "first_seen": "2026-07-27T17:12:41.875788+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001771146-26-001504": {
-      "first_seen": "2026-07-27T17:12:41.875828+00:00",
-      "status": "8-A12B"
-    },
     "edgar:urn:tag:sec.gov,2008:accession-number=0001683168-26-005776": {
       "first_seen": "2026-07-27T18:50:57.393156+00:00",
       "status": "S-1"
@@ -4047,6 +4027,26 @@
     },
     "edgar:urn:tag:sec.gov,2008:accession-number=0001999371-26-021298": {
       "first_seen": "2026-09-25T12:20:30.825066+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-402468": {
+      "first_seen": "2026-09-25T17:22:14.152543+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-103256": {
+      "first_seen": "2026-09-25T17:22:14.152591+00:00",
+      "status": "424B4"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-103381": {
+      "first_seen": "2026-09-25T17:22:14.152598+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001797318-26-000119": {
+      "first_seen": "2026-09-25T17:22:14.152601+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001999371-26-021326": {
+      "first_seen": "2026-09-25T17:22:14.152603+00:00",
       "status": "8-A12B"
     }
   }
