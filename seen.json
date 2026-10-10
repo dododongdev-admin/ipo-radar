@@ -1,22 +1,6 @@
 {
-  "updated": "2026-10-09T21:10:48.640636+00:00",
+  "updated": "2026-10-10T00:58:35.033478+00:00",
   "items": {
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001108205-26-000109": {
-      "first_seen": "2026-08-10T21:56:19.501258+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-342742": {
-      "first_seen": "2026-08-10T21:56:19.501288+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001178913-26-004003": {
-      "first_seen": "2026-08-10T21:56:19.501295+00:00",
-      "status": "S-1"
-    },
-    "finnhub:SCATU:2026-08-12": {
-      "first_seen": "2026-08-10T22:40:53.358354+00:00",
-      "status": "expected"
-    },
     "edgar:urn:tag:sec.gov,2008:accession-number=0001628280-26-055463": {
       "first_seen": "2026-08-11T10:33:32.668130+00:00",
       "status": "S-1"
@@ -3760,6 +3744,34 @@
     "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-108399": {
       "first_seen": "2026-10-09T21:10:48.408108+00:00",
       "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-046618": {
+      "first_seen": "2026-10-10T00:58:34.954204+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-046608": {
+      "first_seen": "2026-10-10T00:58:34.954235+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-108587": {
+      "first_seen": "2026-10-10T00:58:34.954259+00:00",
+      "status": "424B4"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001683168-26-007757": {
+      "first_seen": "2026-10-10T00:58:34.954264+00:00",
+      "status": "424B4"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001999371-26-022563": {
+      "first_seen": "2026-10-10T00:58:34.954269+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001829126-26-010999": {
+      "first_seen": "2026-10-10T00:58:34.954272+00:00",
+      "status": "8-A12B"
+    },
+    "finnhub:IAM:2026-10-15": {
+      "first_seen": "2026-10-10T00:58:35.032907+00:00",
+      "status": "expected"
     }
   }
 }
