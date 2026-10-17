@@ -1,10 +1,6 @@
 {
-  "updated": "2026-10-16T22:03:10.334719+00:00",
+  "updated": "2026-10-17T00:24:59.723877+00:00",
   "items": {
-    "finnhub:NSAIU:2026-08-18": {
-      "first_seen": "2026-08-17T22:30:28.713682+00:00",
-      "status": "expected"
-    },
     "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-038839": {
       "first_seen": "2026-08-18T10:29:58.420048+00:00",
       "status": "S-1"
