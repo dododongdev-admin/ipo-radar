@@ -1,10 +1,6 @@
 {
-  "updated": "2026-10-23T11:28:36.652698+00:00",
+  "updated": "2026-10-23T15:51:53.795926+00:00",
   "items": {
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-092828": {
-      "first_seen": "2026-08-24T13:25:05.802448+00:00",
-      "status": "S-1"
-    },
     "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-039800": {
       "first_seen": "2026-08-24T15:53:01.544208+00:00",
       "status": "F-1"
@@ -3544,6 +3540,10 @@
     "finnhub:LYCA:2026-10-23": {
       "first_seen": "2026-10-23T11:28:36.652221+00:00",
       "status": "expected"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-429620": {
+      "first_seen": "2026-10-23T15:51:53.641155+00:00",
+      "status": "8-A12B"
     }
   }
 }
