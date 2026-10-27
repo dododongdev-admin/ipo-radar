@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T06:01:57.662318+00:00",
+  "updated": "2026-10-27T12:03:02.348381+00:00",
   "items": {
     "edgar:urn:tag:sec.gov,2008:accession-number=0001104659-26-103090": {
       "first_seen": "2026-08-28T19:04:42.611935+00:00",
@@ -3372,6 +3372,18 @@
     "finnhub:SCQCU:2026-10-27": {
       "first_seen": "2026-10-27T00:54:18.465043+00:00",
       "status": "expected"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-048630": {
+      "first_seen": "2026-10-27T12:03:01.805198+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-048609": {
+      "first_seen": "2026-10-27T12:03:01.805237+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-112569": {
+      "first_seen": "2026-10-27T12:03:01.805243+00:00",
+      "status": "S-1"
     }
   }
 }
