@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T21:59:52.732258+00:00",
+  "updated": "2026-10-28T01:10:04.793090+00:00",
   "items": {
     "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-040664": {
       "first_seen": "2026-08-29T02:08:23.032312+00:00",
@@ -3388,6 +3388,22 @@
     "edgar:urn:tag:sec.gov,2008:accession-number=0001628280-26-067557": {
       "first_seen": "2026-10-27T21:59:52.523443+00:00",
       "status": "8-A12B"
+    },
+    "finnhub:OPAY:2026-10-30": {
+      "first_seen": "2026-10-28T01:10:04.792815+00:00",
+      "status": "expected"
+    },
+    "finnhub:ASPE:2026-10-30": {
+      "first_seen": "2026-10-28T01:10:04.792836+00:00",
+      "status": "expected"
+    },
+    "finnhub:BBTX:2026-10-30": {
+      "first_seen": "2026-10-28T01:10:04.792840+00:00",
+      "status": "expected"
+    },
+    "finnhub:GBC:2026-10-29": {
+      "first_seen": "2026-10-28T01:10:04.792843+00:00",
+      "status": "expected"
     }
   }
 }
