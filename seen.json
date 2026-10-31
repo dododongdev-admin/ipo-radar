@@ -1,50 +1,6 @@
 {
-  "updated": "2026-10-30T22:40:42.964098+00:00",
+  "updated": "2026-10-31T01:52:33.866956+00:00",
   "items": {
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-095808": {
-      "first_seen": "2026-08-31T22:44:13.202835+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001537435-26-000071": {
-      "first_seen": "2026-08-31T22:44:13.202891+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-095715": {
-      "first_seen": "2026-08-31T22:44:13.202898+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-095703": {
-      "first_seen": "2026-08-31T22:44:13.202903+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001628280-26-059572": {
-      "first_seen": "2026-08-31T22:44:13.202906+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001575872-26-000634": {
-      "first_seen": "2026-08-31T22:44:13.202922+00:00",
-      "status": "F-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-040850": {
-      "first_seen": "2026-08-31T22:44:13.202930+00:00",
-      "status": "424B4"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-376512": {
-      "first_seen": "2026-08-31T22:44:13.202936+00:00",
-      "status": "8-A12B"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001999371-26-019348": {
-      "first_seen": "2026-08-31T22:44:13.202939+00:00",
-      "status": "8-A12B"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001999371-26-019340": {
-      "first_seen": "2026-08-31T22:44:13.202942+00:00",
-      "status": "8-A12B"
-    },
-    "finnhub:TRBG:2026-08-31": {
-      "first_seen": "2026-08-31T22:44:13.455893+00:00",
-      "status": "expected"
-    },
     "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-095969": {
       "first_seen": "2026-09-01T12:01:04.759804+00:00",
       "status": "S-1"
