@@ -1,62 +1,6 @@
 {
-  "updated": "2026-11-08T20:35:23.102525+00:00",
+  "updated": "2026-11-08T23:59:37.909873+00:00",
   "items": {
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-041999": {
-      "first_seen": "2026-09-09T21:45:35.977018+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-386648": {
-      "first_seen": "2026-09-09T21:45:35.977055+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001104659-26-106403": {
-      "first_seen": "2026-09-09T21:45:35.977063+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001477932-26-005494": {
-      "first_seen": "2026-09-09T21:45:35.977068+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-098438": {
-      "first_seen": "2026-09-09T21:45:35.977072+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001104659-26-106379": {
-      "first_seen": "2026-09-09T21:45:35.977076+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-098404": {
-      "first_seen": "2026-09-09T21:45:35.977079+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001683168-26-007035": {
-      "first_seen": "2026-09-09T21:45:35.977083+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-098421": {
-      "first_seen": "2026-09-09T21:45:35.977095+00:00",
-      "status": "F-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001580642-26-006221": {
-      "first_seen": "2026-09-09T23:32:37.680580+00:00",
-      "status": "8-A12B"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0000894189-26-025091": {
-      "first_seen": "2026-09-09T23:32:37.680617+00:00",
-      "status": "8-A12B"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001432353-26-000682": {
-      "first_seen": "2026-09-09T23:32:37.680621+00:00",
-      "status": "8-A12B"
-    },
-    "finnhub:PTT:2026-09-30": {
-      "first_seen": "2026-09-09T23:32:38.044631+00:00",
-      "status": "expected"
-    },
-    "finnhub:HNUC:2026-09-18": {
-      "first_seen": "2026-09-09T23:32:38.044651+00:00",
-      "status": "expected"
-    },
     "edgar:urn:tag:sec.gov,2008:accession-number=0001753926-26-001740": {
       "first_seen": "2026-09-10T11:44:09.960000+00:00",
       "status": "S-1"
