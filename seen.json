@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T11:40:33.518074+00:00",
+  "updated": "2026-11-12T19:11:46.866337+00:00",
   "items": {
     "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-389755": {
       "first_seen": "2026-09-14T10:53:52.034770+00:00",
@@ -3391,6 +3391,46 @@
     },
     "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-051139": {
       "first_seen": "2026-11-12T11:40:33.404675+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-051283": {
+      "first_seen": "2026-11-12T19:11:46.499741+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001140361-26-043309": {
+      "first_seen": "2026-11-12T19:11:46.499776+00:00",
+      "status": "F-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0000950103-26-017339": {
+      "first_seen": "2026-11-12T19:11:46.499785+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0000894189-26-030275": {
+      "first_seen": "2026-11-12T19:11:46.499789+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001592900-26-005008": {
+      "first_seen": "2026-11-12T19:11:46.499793+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001999371-26-025172": {
+      "first_seen": "2026-11-12T19:11:46.499796+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001580642-26-007674": {
+      "first_seen": "2026-11-12T19:11:46.499799+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001999371-26-025112": {
+      "first_seen": "2026-11-12T19:11:46.499802+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001140361-26-043327": {
+      "first_seen": "2026-11-12T19:11:46.499804+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-457092": {
+      "first_seen": "2026-11-12T19:11:46.499807+00:00",
       "status": "8-A12B"
     }
   }
