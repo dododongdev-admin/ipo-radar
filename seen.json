@@ -1,58 +1,6 @@
 {
-  "updated": "2026-11-17T11:09:54.171756+00:00",
+  "updated": "2026-11-17T19:50:58.296076+00:00",
   "items": {
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-101154": {
-      "first_seen": "2026-09-18T13:40:33.481825+00:00",
-      "status": "F-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-394994": {
-      "first_seen": "2026-09-18T13:40:33.481867+00:00",
-      "status": "8-A12B"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-395150": {
-      "first_seen": "2026-09-18T17:14:42.044803+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-043195": {
-      "first_seen": "2026-09-18T17:14:42.044838+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001477932-26-005673": {
-      "first_seen": "2026-09-18T17:14:42.044843+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001575872-26-000653": {
-      "first_seen": "2026-09-18T17:14:42.044848+00:00",
-      "status": "S-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-101289": {
-      "first_seen": "2026-09-18T17:14:42.044858+00:00",
-      "status": "F-1"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001040674-26-000129": {
-      "first_seen": "2026-09-18T17:14:42.044867+00:00",
-      "status": "8-A12B"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001040674-26-000127": {
-      "first_seen": "2026-09-18T17:14:42.044870+00:00",
-      "status": "8-A12B"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001999371-26-020817": {
-      "first_seen": "2026-09-18T17:14:42.044873+00:00",
-      "status": "8-A12B"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-395319": {
-      "first_seen": "2026-09-18T19:43:51.854358+00:00",
-      "status": "424B4"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001104659-26-108906": {
-      "first_seen": "2026-09-18T19:43:51.854393+00:00",
-      "status": "8-A12B"
-    },
-    "edgar:urn:tag:sec.gov,2008:accession-number=0001104659-26-108904": {
-      "first_seen": "2026-09-18T19:43:51.854399+00:00",
-      "status": "8-A12B"
-    },
     "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-101512": {
       "first_seen": "2026-09-18T21:56:17.715431+00:00",
       "status": "S-1"
@@ -3300,6 +3248,42 @@
     "edgar:urn:tag:sec.gov,2008:accession-number=0001903596-26-000437": {
       "first_seen": "2026-11-17T11:09:53.985378+00:00",
       "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-121218": {
+      "first_seen": "2026-11-17T19:50:57.762908+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001628280-26-074338": {
+      "first_seen": "2026-11-17T19:50:57.762948+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-052619": {
+      "first_seen": "2026-11-17T19:50:57.762976+00:00",
+      "status": "F-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0000092122-26-000084": {
+      "first_seen": "2026-11-17T19:50:57.762984+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-052749": {
+      "first_seen": "2026-11-17T19:50:57.762989+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001592900-26-005037": {
+      "first_seen": "2026-11-17T19:50:57.763014+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001654954-26-009900": {
+      "first_seen": "2026-11-17T19:50:57.763017+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001628280-26-074342": {
+      "first_seen": "2026-11-17T19:50:57.763020+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001493152-26-052695": {
+      "first_seen": "2026-11-17T19:50:57.763025+00:00",
+      "status": "8-A12B"
     }
   }
 }
