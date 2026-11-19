@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T18:54:57.482299+00:00",
+  "updated": "2026-11-19T00:59:08.548760+00:00",
   "items": {
     "edgar:urn:tag:sec.gov,2008:accession-number=0001193125-26-396007": {
       "first_seen": "2026-09-21T10:12:48.232153+00:00",
@@ -3248,6 +3248,46 @@
     "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-121598": {
       "first_seen": "2026-11-18T18:54:57.381662+00:00",
       "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001628280-26-074904": {
+      "first_seen": "2026-11-19T00:59:08.269924+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001683168-26-008934": {
+      "first_seen": "2026-11-19T00:59:08.269964+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001683168-26-008932": {
+      "first_seen": "2026-11-19T00:59:08.269970+00:00",
+      "status": "S-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-121817": {
+      "first_seen": "2026-11-19T00:59:08.269984+00:00",
+      "status": "F-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-121800": {
+      "first_seen": "2026-11-19T00:59:08.269989+00:00",
+      "status": "F-1"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001213900-26-121883": {
+      "first_seen": "2026-11-19T00:59:08.269996+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001628280-26-074821": {
+      "first_seen": "2026-11-19T00:59:08.269999+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001829126-26-012615": {
+      "first_seen": "2026-11-19T00:59:08.270001+00:00",
+      "status": "8-A12B"
+    },
+    "edgar:urn:tag:sec.gov,2008:accession-number=0001580642-26-007787": {
+      "first_seen": "2026-11-19T00:59:08.270004+00:00",
+      "status": "8-A12B"
+    },
+    "finnhub:FBLLU:2026-11-20": {
+      "first_seen": "2026-11-19T00:59:08.548448+00:00",
+      "status": "expected"
     }
   }
 }
